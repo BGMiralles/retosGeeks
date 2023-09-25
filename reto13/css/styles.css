@@ -1,0 +1,193 @@
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#padre1 {
+    height: 2em;
+    width: 60em;
+
+    font-weight: bold ;
+    color: black;
+    text-align: center;
+}
+
+#padre2 {
+    height: 8em;
+    width: 60em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2px;
+    /* background-color: blueviolet; */
+}
+
+
+#celda1 {
+    height: 2em;
+    width: 60em;
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
+    box-sizing: border-box;
+
+    background-color: chartreuse;
+}
+
+#bloque {
+    height: 6em;
+    width: 60em;
+
+    display: flex;
+    flex-direction: row;
+
+    /* background-color: blueviolet; */
+}
+
+#celda27 {
+    height: 6em;
+    width: 20em;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    /* background-color: blueviolet; */
+}
+
+#celda2 {
+    height: 4em;
+    width: 20em;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    box-sizing: border-box;
+    font-weight: bold;
+    line-height: 64px;
+
+
+    background-color: cornflowerblue;
+}
+
+#celda7 {
+    height: 2em;
+    width: 20em;
+    text-align: center;
+    font-weight: bold;
+    border-left: 1.5px solid grey;
+    border-top: 1.5px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    box-sizing: border-box;
+
+    /* background-color: brown; */
+}
+
+#celda358 {
+    height: 6em;
+    width: 20em;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 2px;
+    padding-right: 2px;
+    /* background-color: brown; */
+}
+
+#celda3 {
+    height: 2em;
+    width: 20em;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#celda5 {
+    height: 2em;
+    width: 20em;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 1px;
+}
+
+#celda8 {
+    height: 2em;
+    width: 20em;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 1px;
+}
+
+#celda46 {
+    height: 6em;
+    width: 20em;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 2px;
+    padding-right: 2px;
+    /* background-color: blueviolet; */
+}
+
+#celda4 {
+    height: 1.8em;
+    width: 19.59em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-left: 3px;
+}
+
+#celda6 {
+    height: 4em;
+    width: 19.7em;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-top: 1px;
+    text-align: right;
+    line-height: 100px;
+
+    background-color: fuchsia;
+}
